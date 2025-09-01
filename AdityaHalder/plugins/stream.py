@@ -445,7 +445,7 @@ Stream Audio Or Video❗...
         link = video["link"]
         xyz = os.path.join("downloads", f"{id}.mp3")
         if not os.path.exists(xyz):
-            song_data = await fetch_song(id)
+            song_data = await fetch_song(query)
             if not song_data:
                 try:
                     return await aux.edit("❌ Failed to process query, please try again.")
@@ -598,6 +598,7 @@ Stream Audio Or Video❗...
             await bot.send_photo(console.LOG_GROUP_ID, photo=thumbnail, caption=log_message)
         except Exception:
             pass
+
 
 
 
