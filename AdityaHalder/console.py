@@ -57,7 +57,7 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://graph.org/file/918101d0ad6b1207e6201.png")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://envs.sh/enO.jpg")
 
 
 
